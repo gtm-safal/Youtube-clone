@@ -8,6 +8,8 @@
   font-weight: 500;
   line-height: 20px;
   margin-bottom: 10px;
+  height: 40px;
+  overflow: hidden;
 }
 
 .video-info-grid {
@@ -37,9 +39,28 @@
 
 .video-grid {
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-columns: repeat(4, 1fr); /* Default: 4 columns */
   column-gap: 16px;
   row-gap: 40px;
+}
+
+/* Responsive breakpoints — decrease columns as screen gets narrower */
+@media (max-width: 1215px) {
+  .video-grid {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+
+@media (max-width: 870px) {
+  .video-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (max-width: 500px) {
+  .video-grid {
+    grid-template-columns: 1fr;
+  }
 }
 
 .video-time {
