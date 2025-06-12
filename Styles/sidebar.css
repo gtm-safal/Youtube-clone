@@ -30,3 +30,8 @@
 .sidebar-link div {
   font-size: 10px;
 }
+@media (max-width: 500px) {
+  .sidebar {
+    display: none;
+  }
+}

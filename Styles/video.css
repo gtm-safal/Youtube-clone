@@ -60,6 +60,14 @@
 @media (max-width: 500px) {
   .video-grid {
     grid-template-columns: 1fr;
+    justify-items: center;
+  }
+  .video-card {
+    width: 100%;
+    max-width: 360px; 
+  }
+  body{
+    padding-left: 10vw;
   }
 }
 
