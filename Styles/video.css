@@ -78,3 +78,7 @@
   bottom: 8px;
   right: 5px;
 }
+.video-address{
+  text-decoration: none;
+  color: black;
+}
