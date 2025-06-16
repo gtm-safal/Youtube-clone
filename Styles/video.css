@@ -39,14 +39,12 @@
 
 .video-grid {
   display: grid;
-  grid-template-columns: repeat(4, 1fr); /* Default: 4 columns */
+  grid-template-columns: repeat(4, 1fr); 
   column-gap: 16px;
   row-gap: 40px;
-  transition : .01s all ease-in-out ;
 }
 .video-grid a:hover{
-  background-color: rgb(200, 200, 200);
-  transform : scale(1.05) ;
+  background-color: rgb(180, 180, 180);
 }
 
 @media (max-width: 1215px) {
