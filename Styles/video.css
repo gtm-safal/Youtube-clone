@@ -43,8 +43,10 @@
   column-gap: 16px;
   row-gap: 40px;
 }
+.video-grid a:hover{
+  background-color: rgb(235, 235, 235);
+}
 
-/* Responsive breakpoints — decrease columns as screen gets narrower */
 @media (max-width: 1215px) {
   .video-grid {
     grid-template-columns: repeat(3, 1fr);
