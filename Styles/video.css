@@ -42,9 +42,11 @@
   grid-template-columns: repeat(4, 1fr); /* Default: 4 columns */
   column-gap: 16px;
   row-gap: 40px;
+  transition : .01s all ease-in-out ;
 }
 .video-grid a:hover{
-  background-color: rgb(163 163 163);
+  background-color: rgb(200, 200, 200);
+  transform : scale(1.05) ;
 }
 
 @media (max-width: 1215px) {
