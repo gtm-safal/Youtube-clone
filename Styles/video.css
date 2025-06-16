@@ -43,8 +43,8 @@
   column-gap: 16px;
   row-gap: 40px;
 }
-.video-grid:hover{
-  background-color: rgb(235, 235, 235);
+.video-grid a:hover{
+  background-color: rgb(163 163 163);
 }
 
 @media (max-width: 1215px) {
